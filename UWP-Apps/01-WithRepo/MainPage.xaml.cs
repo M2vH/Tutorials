@@ -27,6 +27,8 @@ namespace _01_WithRepo
             this.InitializeComponent();
         }
 
+        private string mytext;
+
         private void button_Click(object sender, RoutedEventArgs e)
         {
             string newtext = "Drück mich!";
@@ -36,7 +38,8 @@ namespace _01_WithRepo
 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            mytext = textBox.Text;
+            textBox1.Text = mytext;
         }
     }
 }

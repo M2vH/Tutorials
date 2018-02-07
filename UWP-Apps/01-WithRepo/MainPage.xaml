@@ -9,12 +9,13 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="16*"/>
-            <ColumnDefinition Width="33*"/>
-            <ColumnDefinition Width="23*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="103*"/>
+            <ColumnDefinition Width="37*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Center" Margin="0,245,1,0" VerticalAlignment="Top" Height="35" Width="164" Grid.Column="1" Click="button_Click"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Center" Margin="0,85,1,0" TextWrapping="Wrap" Text="Double Click&#xD;&#xA;" VerticalAlignment="Top" Height="105" Width="164" Grid.Column="1" TextChanged="textBox_TextChanged"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Center" Margin="23,245,19,0" VerticalAlignment="Top" Height="35" Width="164" Grid.Column="1" Click="button_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Center" Margin="23,85,19,0" TextWrapping="Wrap" Text="Double Click&#xD;&#xA;" VerticalAlignment="Top" Height="105" Width="164" Grid.Column="1" TextChanged="textBox_TextChanged"/>
+        <TextBox x:Name="textBox1" Grid.Column="1" HorizontalAlignment="Left" Margin="0,397,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="86" Width="206"/>
 
     </Grid>
 </Page>
