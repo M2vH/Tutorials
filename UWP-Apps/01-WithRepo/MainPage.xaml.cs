@@ -26,5 +26,17 @@ namespace _01_WithRepo
         {
             this.InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            string newtext = "Drück mich!";
+            textBox.Text = newtext;
+
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
